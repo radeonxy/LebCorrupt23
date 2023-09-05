@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LebCorrupt 2023 - English</title>
+    <link rel="stylesheet" href="styles-2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to LebCorrupt 2023</h2>
+        <div class="color-strike"></div>
+    </div>
+    
+    <div class="registration-login-form">
+        <div class="registration-form">
+            <h2>Register for Access</h2>
+<br>
+<script src="script.js"></script>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="number" id="phone" name="phone" required>
+
+                <label for="party">Party:</label>
+                <select id="party" name="party" required>
+                    <option value="option">Choose your party</option>
+                    <option value="party2">Free Patriotic Movement</option>
+                    <option value="party2">Future Movement</option>
+                    <option value="party2">Amal Movement</option>
+                    <option value="party2">Lebanese Forces</option>
+                    <option value="party3">Progressive Socialist Party</option>
+                    <option value="party3">Marada Movement</option>
+                    <option value="party3">Kataeb Party</option>
+                    <option value="party3">Hezbollah</option>
+
+                </select><br></br>
+<label for="noneOfTheAbove">I dont belong to any party</label>
+<input type="checkbox" id="noneOfTheAbove" name="noneOfTheAbove" onchange="toggleSelect()">
+<br></br>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+<a href="products_eng.html">
+    <button type="button">Register</button>
+</a>            </form>
+        </div>
+
+        <div class="login-form">
+            <h2>Login</h2><br>
+            <form action="login.php" method="post">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="login-username" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+
+<a href="products_eng.html">
+    <button type="button">Login</button>
+</a>            </form>
+        </div>
+    </div>
+</body>
+</html>

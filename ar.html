@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LebCorrupt 2023 - Ar</title>
+    <link rel="stylesheet" href="styles-2.css">
+<script src="script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to LebCorrupt 2023</h2>
+        <div class="color-strike"></div>
+    </div>
+    
+    <div class="registration-login-form">
+        <div class="registration-form">
+            <h2>تسجيل مستخدم جديد</h2>
+<br>
+                <label for="name">الإسم الثلاثي</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الالكتروني</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">رقم الهاتف</label>
+                <input type="number" id="phone" name="phone" required>
+
+                <label for="party">الميول السياسي</label>
+                <select id="party" name="party" required>
+                    <option value="option">اختر حزبك</option>
+                    <option value="party2">التيار الوطني الحر</option>
+                    <option value="party2">تيار المستقبل</option>
+                    <option value="party2">حركة امل</option>
+                    <option value="party2">القوات اللبنانية</option>
+                    <option value="party3">الحزب التقدمي الاشتراكي</option>
+                    <option value="party3">المردة</option>
+                    <option value="party3">الكتائب</option>
+                    <option value="party3">حزب الله</option>
+  </select><br></br>
+                                <label for="noneOfTheAbove">لا أنتمي لأي حزب</label>
+<input type="checkbox" id="noneOfTheAbove" name="noneOfTheAbove" onchange="toggleSelect()">
+<br></br>
+
+
+                </select>
+
+                <label for="username">اسم المستخدم</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">كلمة السر</label>
+                <input type="password" id="password" name="password" required>
+
+<a href="products_ar.html">
+    <button type="button">دخول</button>
+</a>            </form>
+        </div>
+
+        <div class="login-form">
+            <h2>تسجيل الدخول</h2><br>
+            <form action="login.php" method="post">
+                <label for="login-username">اسم المستخدم</label>
+                <input type="text" id="login-username" name="login-username" required>
+
+                <label for="login-password">كلمة السر</label>
+                <input type="password" id="login-password" name="login-password" required>
+
+<a href="products_ar.html">
+    <button type="button">دخول</button>
+</a>            </form>
+        </div>
+    </div>
+</body>
+</html>
